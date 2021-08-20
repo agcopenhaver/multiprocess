@@ -13,7 +13,7 @@ import functools
 import io
 import os
 try:
-    import cloudpickle as pickle
+    import dill as pickle
 except ImportError:
     import pickle
 import socket
